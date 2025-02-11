@@ -1,2 +1,0 @@
-# SUSAN Control
-This is the code that runs on the ATMEL control processor. It sends instructions and recieves state over SPI to and from the DSP, sends and recieves analog data to and from the amplifier (including a basic PID control circuit taking thermistor data and a moving average of input signal amplitude and gain from the amp board), controls an OLED display and handles user input such as filter control, infra mode, startup and settings.
